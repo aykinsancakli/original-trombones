@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Original Trombones / Aykın Sancaklı" />
+    <meta charset="UTF-8" />
+    <link rel="icon" href="img/favicon-32x32.png" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Rubik:ital,wght@0,400;0,500;0,600;0,700;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Original Trombones</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <a href="#"
+        ><img
+          class="header-img"
+          id="header-img"
+          src="img/product-landing-page-logo.png"
+      /></a>
+      <nav class="nav-bar" id="nav-bar">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="#features">Features</a></li>
+          <li><a class="nav-link" href="#how-it-works">How it Works</a></li>
+          <li><a class="nav-link" href="#pricing">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              <span class="hero-diff">Handcrafted</span>, home-made masterpieces
+            </h1>
+            <p class="hero-description">
+              Handcrafted Trombones Await. Discover the enchanting power of our
+              premium trombones now.
+            </p>
+            <form
+              action="https://www.freecodecamp.com/email-submit"
+              method="POST"
+              class="hero-form"
+              id="form"
+              netlify
+            >
+              <input
+                type="email"
+                id="email"
+                class="email-input"
+                name="email"
+                placeholder="Enter your email address"
+                required
+              />
+              <input
+                type="submit"
+                id="submit"
+                class="submit-input"
+                value="GET STARTED"
+              />
+            </form>
+          </div>
+          <div class="hero-img-box">
+            <img class="hero-img" src="img/hero-smaller.jpg" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-features" id="features">
+        <div class="features container grid--3-cols">
+          <div class="feature">
+            <ion-icon class="feature-icon" name="cube"></ion-icon>
+            <p class="feature-heading">Premium Materials</p>
+            <p class="feature-text">
+              Our trombones use the shiniest brass which is sourced locally.
+              This will increase the longevity of your purchase.
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="flash"></ion-icon>
+            <p class="feature-heading">Fast Shipping</p>
+            <p class="feature-text">
+              We make sure you recieve your trombone as soon as we have finished
+              making it. We also provide free returns if you are not satisfied.
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="diamond"></ion-icon>
+            <p class="feature-heading">Quality Assurance</p>
+            <p class="feature-text">
+              For every purchase you make, we will ensure there are no damages
+              or faults and we will check and test the pitch of your instrument.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-video" id="how-it-works">
+        <div class="video container">
+          <iframe
+            id="video"
+            width="800"
+            height="400"
+            src="https://www.youtube.com/embed/y8Yv4pnO7qc"
+            title="Roman Carnival Overture Op. 9 for Five Trombones"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+
+      <section class="section-pricing" id="pricing">
+        <div class="pricing container grid--3-cols">
+          <div class="pricing-card">
+            <div class="pricing-header">
+              <p class="pricing-heading">TENOR TROMBONE</p>
+            </div>
+            <div class="pricing-img">
+              <img class="pricing-img" src="img/tenor.jpg" />
+            </div>
+            <div class="pricing-text">
+              <p class="pricing-price"><span class="bold-price">$</span>600</p>
+              <p class="card-info">Lorem ipsum.</p>
+              <p class="card-info">Lorem ipsum.</p>
+              <p class="card-info">Lorem ipsum dolor.</p>
+              <p class="card-info">Lorem ipsum.</p>
+              <button class="btn--pricing">SELECT</button>
+            </div>
+          </div>
+          <div class="pricing-card">
+            <div class="pricing-header">
+              <p class="pricing-heading">BASS TROMBONE</p>
+            </div>
+            <div class="pricing-img">
+              <img class="pricing-img" src="img/bass.jpg" />
+            </div>
+            <div class="pricing-text">
+              <p class="pricing-price"><span class="bold-price">$</span>900</p>
+              <p class="card-info">Lorem ipsum.</p>
+              <p class="card-info">Lorem ipsum.</p>
+              <p class="card-info">Lorem ipsum dolor.</p>
+              <p class="card-info">Lorem ipsum.</p>
+              <button class="btn--pricing">SELECT</button>
+            </div>
+          </div>
+          <div class="pricing-card pricing-card--premium">
+            <div class="pricing-header">
+              <p class="pricing-heading">VALVE TROMBONE</p>
+            </div>
+            <div class="pricing-img">
+              <img class="pricing-img" src="img/last.jpg" />
+            </div>
+            <div class="pricing-text">
+              <p class="pricing-price"><span class="bold-price">$</span>1200</p>
+              <p class="card-info">Lorem ipsum.</p>
+              <p class="card-info">Lorem ipsum.</p>
+              <p class="card-info">Lorem ipsum dolor.</p>
+              <p class="card-info">Lorem ipsum.</p>
+              <button class="btn--pricing">SELECT</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="flex-footer">
+        <div class="logos">
+          <a href="#"
+            ><img class="header-img" src="img/product-landing-page-logo.png"
+          /></a>
+          <div class="social">
+            <a href="#"
+              ><ion-icon class="social-logo" name="logo-instagram"></ion-icon
+            ></a>
+            <a href="#"
+              ><ion-icon class="social-logo" name="logo-facebook"></ion-icon
+            ></a>
+            <a href="#"
+              ><ion-icon class="social-logo" name="logo-twitter"></ion-icon
+            ></a>
+          </div>
+          <p class="copyright-text">
+            Copyright © 2023 by Original Trombones, Inc. All rights reserved.
+          </p>
+          <div class="info">
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Contact</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
